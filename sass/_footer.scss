@@ -1,0 +1,240 @@
+.footer{
+    padding: 2.8rem 0;
+    background-color: #000;
+    margin-top: 10rem;
+    position: relative;
+    @include max(992){
+padding-top: 10rem;
+    }
+    
+       @include max(850){
+margin-top: 0;
+    }
+    
+    .footer-content{
+        a,li{
+            color: #fff;
+        }
+        
+        >ul{
+            &:nth-child(1){
+                
+     
+                    display: flex;
+                    justify-content: space-between;
+                    width: 90%;
+                    margin: auto;
+                flex-wrap: wrap;
+                @include max(1550){
+                    width: 80%;
+                }
+                
+                
+                li{
+                    @include max(1445){
+                        width: 31%;
+                        text-align: center;
+                        margin-bottom: 1rem;
+                    }
+                     @include max(992){
+                       width: 50%;
+                    }
+                      @include max(450){
+                       width: 100%;
+                    }
+                    &:last-child{
+                        @include max(1445){
+                            width: 100%;
+                        }
+                    }
+                       &:not(:last-child){
+                           
+                           
+                           a{
+                               position: relative;
+                               width: 100%;
+                                   &::after{
+                            
+                           content: "";
+                            position: absolute;
+                            top: -3px;
+                            right: -23px;
+                            width: 1px;
+                            height: 15px;
+                            background-color: #2a2a2a;
+                            display: block;
+                               @include max(1550){
+                                        right: -15px;
+                            }
+                                       
+                                @include max(1445){
+                                 display: none;
+                            }           
+                                       
+                                       
+                                       
+                                       
+                                       
+                        }
+                           }
+                        
+                    
+                    }
+                }
+                
+                a{
+                      font-size: 10px;
+                      font-family: "PressStart2P";
+                    color: #fff;
+                        font-family: 'Press Start 2P', cursive;
+                    text-transform: capitalize;
+                    transition: .3s;
+                    position: relative;
+                 
+                    &:hover{
+                        color: #febb00;
+                    }
+                }
+            }
+            &:nth-child(2){
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                margin: auto;
+                @include max(1300){
+                    width: 90%;
+                }
+                @include max(1170){
+                   flex-wrap: wrap;
+                    line-height: 2;
+                }
+                a{
+                    transition: .3s;
+                    &:hover{
+                        color: #febb00;
+                    }
+                }
+                       li{
+                           @include max(992){
+                               width: 100%;
+                               text-align: center;
+                           }
+                           
+                           &:first-child{
+                               @include max(1170){
+                                   width: 100%;
+                                   text-align: center;
+                               }
+                               span{
+                                   @include max(1170){
+                                       display: block;
+                                   }
+                               }
+                               a{
+                                   &::after{
+                                       @include max(1170){
+                                           display: none !important;
+                                       }
+                                   }
+                               }
+                           }
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                       &:not(:last-child){
+                           
+                           
+                           a{
+                               position: relative;
+                                   &::after{
+                            
+                           content: "";
+                            position: absolute;
+                            top: 0px;
+                            right: -9px;
+                            width: 1px;
+                            height: 15px;
+                            background-color: #2a2a2a;
+                            display: block;
+                                       @include max(1170){
+                                           
+                                        right: -25px;
+                                        top: 5px;
+
+                                       }
+                                        @include max(1070){
+                                           
+                                        right: -20px;
+                                      
+
+                                       }
+                                        @include max(1000){
+                                           
+                                        right: -15px;
+                                      
+
+                                       }
+                                         @include max(992){
+                                           
+                                        display: none;
+                                      
+
+                                       }
+                        }
+                           }
+                        
+                    
+                    }
+                }
+                
+                a,li{
+                    font-size: 12px;
+                      font-family: 'IBM Plex Mono', monospace;
+                }
+                
+                
+            }
+        }
+    }
+    .binance-logo{
+        position: absolute;
+     
+            position: absolute;
+    right: 25px;
+    top: 40%;
+        @include max(992){
+    top: 50px;
+            left: 0;
+            width: 100%;
+            
+        }
+        img{
+            margin: auto;
+        }
+        
+    }
+    .boy-logo{
+        position: absolute;
+    top: -20px;
+    
+    left: 20px;
+        @include max(1170){
+
+    top: 40px;
+    left: 10px;
+        }
+        @include max(992){
+            display: none;
+        }
+        
+    }
+    
+}
+
+

@@ -1,0 +1,83 @@
+.comingsoon{
+    
+     @include centerElement();
+    top: 40%;
+    opacity: 0;
+    z-index: -1;
+    
+    p{
+           font-size: 24px;
+      font-family: 'IBM Plex Mono', monospace;
+  color: rgb( 254, 187, 0 );
+  font-weight: bold;
+        text-transform: uppercase;
+       
+    }
+    
+    
+}
+
+.Flexible-2 .comingsoon{
+    
+    top: 50%
+}
+
+
+
+
+ .card.comingsooncard{
+        
+    &:hover .comingsoon{
+        opacity: 1;
+        z-index: 99;
+    }
+                      &:hover{
+                          box-shadow: none !important;
+                          cursor: default !important;
+                      }
+                        &:hover .percentage{
+                            opacity: 0;
+                            z-index: -1;
+                            
+                    }
+                      &:hover .stakenow{
+                          
+                          background-color: #5d6168 !important;
+                           cursor: default !important;
+                          
+                      }
+                      &:hover .stakenow a{
+                           color: rgb( 142, 145, 149 ) !important;
+                           cursor: default !important;
+                      }
+          &:hover .rate p{
+                          color: rgb( 142, 145, 149 ) !important;
+                      }
+     
+     
+     
+     
+     
+     &:hover .timeline{
+         
+         opacity: 0;
+         z-index: -1;
+     }
+     
+     &:hover .jntr-bswap{
+         
+          opacity: 0;
+         z-index: -1;
+     }
+     
+     &:hover .rate{
+         
+         opacity: 0;
+         z-index: -1;
+     }
+     
+     
+                  }
+
+
+

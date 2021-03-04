@@ -1,0 +1,95 @@
+.owl-theme .owl-nav{
+    margin-top: 0
+}
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    
+    position: absolute;
+    top: 49%;
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+.owl-carousel .owl-nav button.owl-prev{
+    
+    left: 10px;
+    margin: 0;
+    @include max(1320){
+        left:35px;
+    }
+    &:hover{
+        background: none;
+    }
+    span{
+        display: block;
+        position: relative;
+        cursor: pointer;
+        &:focus{
+            outline: 0;
+            border: none;
+        }
+        &::after{
+            position: absolute;
+            content: "\e901";
+            top: 0;
+            left: -3px;
+            width: 100%;
+            height: 100%;
+            font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+            font-size: 20px;
+        }
+    }
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    
+    right: 10px;
+    margin: 0;
+     @include max(1320){
+        right: 40px;
+    }
+    &:hover{
+        background: none;
+    }
+    span{
+        display: block;
+        position: relative;
+        cursor: pointer;
+        &:focus{
+            outline: 0;
+            border: none;
+        }
+        &::after{
+            position: absolute;
+              content: "\e902";
+
+            top: 0;
+            left: -3px;
+            width: 100%;
+            height: 100%;
+            font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,167 @@
+%card{
+            width: 310px;
+                 border-radius: 10px;
+                  background-color: rgb( 22, 25, 30 );
+                  padding-top: 3rem;
+                  
+                  transition: .5s;
+                  cursor: pointer;
+    
+    
+    
+                  
+                  &:hover{
+                      box-shadow:1px 1px 9px 7px rgba(#febb00,.4);
+                      transform: scale(1.05);
+                  }
+                  
+                  &:hover .stakenow {
+                      
+                      transform: scale(1.02);
+                  }
+ 
+    
+    
+    
+    
+    
+  
+}
+
+%h3.flxstaking{
+    
+          font-size: 16px;
+                  font-family: 'Press Start 2P', cursive;
+                  color: rgb( 255, 255, 255 );
+                font-weight: normal;
+                text-transform: capitalize;
+                text-align: center;
+                margin-bottom: 5rem;
+                
+}
+
+%percentage{
+    
+          margin-bottom: 3rem;
+                
+                
+                p{
+                      font-size: 30px;
+                      font-family: 'Press Start 2P', cursive;
+                      color: rgb( 254, 187, 0 );
+                    text-align: center;
+                    height: 40px;
+                    display: flex;
+    justify-content: center;
+    align-items: center;
+                    width: 180px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    .popup{
+                        right: -145px;
+                    }
+                    &.twonum{
+                        .icon-question{
+                                right: 40px;
+                                top: -15px;
+                        }
+                        .popup{
+                            right: -100px;
+                            z-index: 99999;
+                        }
+                        
+                    }
+                    &.last3num{
+                        
+                        .popup{
+                            right: auto;
+                            left: 25px;
+                            
+                        }
+                    }
+                    &.last2num{
+                        .popup{
+                            left: -10px;
+                        }
+                        
+                        
+                    }
+
+                }
+                span:nth-child(2){
+                      font-size: 12px;
+                      font-family: 'IBM Plex Mono', monospace;
+                      color: rgb( 142, 145, 149 );
+                    text-align: center;
+                    display: block;
+                    margin-top: .8rem;
+                    
+                }
+}
+
+
+
+
+%rate{
+         display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 1.5rem;
+                border-top: 1px solid rgb( 38, 42, 49 );
+                p{
+                    
+                    font-family: 'IBM Plex Mono', monospace;
+                    font-size: 16px;
+                      font-weight: 500;
+                    color: #fff;
+                    text-transform: capitalize;
+                   
+                }
+                img{
+                    margin-right: 1rem;
+                }
+}
+
+
+%stakenow{
+         border-radius: 10px;
+                  background-color:#febb00;
+                margin-top: 2rem;
+                transition: .5s;
+                
+                a{
+                      font-size: 14px;
+                      font-family: 'Press Start 2P', cursive;
+                      color: #fff;
+                      text-transform: capitalize;
+                    text-align: center;
+                    display: block;
+                    width: 100%;
+                    padding: 2.3rem 0;
+                }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

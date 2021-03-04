@@ -1,0 +1,244 @@
+.heroarea{
+    .bswaphero{
+          border-radius: 10px;
+          background-color: rgb( 22, 25, 30 );
+          border: 2px solid rgb( 0, 0, 0 );
+          display: flex;
+          justify-content: space-between;
+        margin-top: 10rem;
+          @include max(1260){
+          margin-top: 5rem;
+        }
+        
+        @include max(1000){
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+          @include max(992){
+           margin-top: 0;
+              border-radius: 0;
+        }
+        
+       
+        
+        
+        .side{
+            
+            width: 315px;
+             padding-top: 5rem;
+        padding-bottom: 8rem;
+            padding-left: 3rem;
+            @include max(1000){
+                width: 40%;
+                padding-left: 0;
+            }
+            @include max(500){
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                
+     
+            }
+            &:nth-child(3){
+                @include max(500){
+                    padding-top: 0;
+                    padding-bottom: 0;
+                }
+            }
+              &:nth-child(1){
+                @include max(500){
+                    padding-bottom: 0
+                }
+            }
+           
+          
+        .invest-save{
+            
+            font-size: 24px;
+             font-family: 'Press Start 2P', cursive;
+              color: rgb( 255, 255, 255 );
+            text-transform: capitalize;
+            font-weight: normal;
+            padding-bottom: 3rem;
+            
+        }
+        .feature{
+            margin-bottom: 3rem;
+            h5{
+              font-family: 'IBM Plex Mono', monospace;
+                font-size: 21px;
+                font-weight: bold;
+                  color: rgb( 254, 187, 0 );
+                margin-bottom: .5rem;
+                text-transform: capitalize;
+            }
+            p{
+                  font-family: 'IBM Plex Mono', monospace;
+                font-size: 13px;
+             
+                  color: #fff;
+                line-height: 1.6;
+                @include max(1000){
+                    height: 50px;
+                }
+            }
+            
+        }
+        }
+        .main-hero{
+            width: calc(100% - 630px);
+            background-image: url(../imgs/hero-bswap.png);
+           background-repeat: no-repeat;
+            background-position: 50% 50%;
+            position: relative;
+            border-left: 2px solid #000;
+            border-right: 2px solid #000;
+             @include max(1130){
+                    
+                    width: auto;
+                 padding-top: 4rem;
+                    
+                }
+               @include max(1000){
+                    
+                  order: -1;
+                   width: 100%;
+                   border: none
+                    
+                }
+            &::after{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(#16191e,.75)
+            }
+              
+            h1{
+                font-size: 56px;
+                font-family: 'Press Start 2P', cursive;
+                color: #febb00;
+                text-transform: uppercase;
+                width: 500px;
+                margin:  3rem auto;
+                text-align: center;
+                line-height: 1.7;
+                position: relative;
+                z-index: 999999;
+                max-width: 100%;
+                @include max(1130){
+                    
+                    font-size: 34px;
+                    
+                    
+                }
+                    @include max(1085){
+                    
+                    font-size: 24px;
+                    
+                    
+                }
+                 @include max(1000){
+                    
+                    font-size: 56px;
+                    
+                    
+                }
+             @include max(500){
+                    
+                    font-size: 35px;
+                 width: 90%;
+                 margin-left: auto;
+                 margin-right: auto;
+                    
+                    
+                }
+                
+            }
+            .bswap-logo{
+                padding-top: 5rem;
+                position: relative;
+                z-index: 999999;
+                img{
+                    margin: auto;
+                    display: block;
+                }
+            }
+            .cta{
+             width: 440px;
+                margin: auto;
+                position: relative;
+                z-index: 999999;
+                max-width: 100%;
+                @include max(500){
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                a{
+                    font-size: 30px;
+                font-family: 'IBM Plex Mono', monospace;
+                color: #fff;
+                    font-weight: bold;
+                    text-align: center;
+                    display: block;
+                    text-transform: capitalize;
+                    border-top: 1px solid #febb00;
+                    border-bottom:  1px solid #febb00;
+                    padding: 1.5rem 0;
+                       @include max(1085){
+                    
+                    font-size: 20px;
+                    
+                    
+                }
+                          @include max(1000){
+                    
+                        font-size: 30px;
+                    
+                    
+                }
+                }
+                
+            }
+        }
+        
+        
+       
+        
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
